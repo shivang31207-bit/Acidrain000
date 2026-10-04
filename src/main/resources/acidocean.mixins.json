@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.acidocean.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["BiomeColorsMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

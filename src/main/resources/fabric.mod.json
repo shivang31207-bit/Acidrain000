@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "acidocean",
+  "version": "${version}",
+  "name": "Acid Ocean",
+  "description": "Turn the ocean into acid with a command. Ocean water turns green and hurts players.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.acidocean.AcidOcean"],
+    "client": ["com.example.acidocean.AcidOceanClient"]
+  },
+  "mixins": ["acidocean.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
